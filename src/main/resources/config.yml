@@ -1,0 +1,85 @@
+# Nazwy, materiały, opisy i komendy można zmieniać bez edycji kodu.
+# Materiały: https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/Material.html
+menu:
+  title: "&8✦ &6&lRANGI &8✦"
+  rows: 3
+  filler: BLACK_STAINED_GLASS_PANE
+  slots:
+    vip: 11
+    mvip: 13
+    elita: 15
+    special: 22
+  items:
+    vip:
+      material: GOLD_BLOCK
+      name: "&e&lVIP"
+      lore:
+        - "&7Podstawowa ranga specjalna"
+        - ""
+        - "&eKliknij, aby zobaczyć bonusy"
+    mvip:
+      material: ORANGE_TERRACOTTA
+      name: "&6&lMVIP"
+      lore:
+        - "&7Wyższa ranga specjalna"
+        - ""
+        - "&eKliknij, aby zobaczyć bonusy"
+    elita:
+      material: PURPLE_CONCRETE
+      name: "&5&lELITA"
+      lore:
+        - "&7Elitarna ranga specjalna"
+        - ""
+        - "&eKliknij, aby zobaczyć bonusy"
+    special:
+      material: GRAY_STAINED_GLASS_PANE
+      name: "&f&l?"
+      lore:
+        - "&7Czwarta ranga specjalna"
+        - "&7Ustaw jej nazwę i bonusy w config.yml"
+        - ""
+        - "&eKliknij, aby zobaczyć szczegóły"
+
+# To są przykładowe opisy — dopasuj je do faktycznych korzyści na swoim serwerze.
+ranks:
+  vip:
+    title: "&e&lVIP"
+    material: GOLD_BLOCK
+    description:
+      - "&7Przykładowe bonusy:"
+      - "&f• Wyróżniony prefiks na czacie"
+      - "&f• Dodatkowe możliwości serwerowe"
+      - "&8Edytuj opis w config.yml"
+    command: ""
+  mvip:
+    title: "&6&lMVIP"
+    material: ORANGE_TERRACOTTA
+    description:
+      - "&7Przykładowe bonusy:"
+      - "&f• Wszystkie bonusy skonfigurowane dla MVIP"
+      - "&f• Dodatkowe możliwości serwerowe"
+      - "&8Edytuj opis w config.yml"
+    command: ""
+  elita:
+    title: "&5&lELITA"
+    material: PURPLE_CONCRETE
+    description:
+      - "&7Przykładowe bonusy:"
+      - "&f• Wszystkie bonusy skonfigurowane dla ELITA"
+      - "&f• Najwyższy poziom rangi specjalnej"
+      - "&8Edytuj opis w config.yml"
+    command: ""
+  special:
+    title: "&f&lTAJEMNICZA RANGA"
+    material: NETHER_STAR
+    description:
+      - "&7Tutaj wpisz prawdziwą nazwę"
+      - "&7i bonusy czwartej rangi."
+    command: ""
+
+details:
+  title: "&8Ranga: {rank}"
+  rows: 3
+  back-slot: 18
+  back-material: ARROW
+  back-name: "&cPowrót do rang"

@@ -1,0 +1,14 @@
+name: RangiPlugin
+version: 1.0.0
+main: pl.rangi.RangiPlugin
+api-version: '1.21'
+author: ChatGPT
+description: Menu /rangi z opisami rang VIP, MVIP, ELITA i czwartej rangi.
+commands:
+  rangi:
+    description: Otwiera menu rang
+    usage: /rangi
+permissions:
+  rangi.admin:
+    description: Pozwala przeładować konfigurację pluginu
+    default: op
